@@ -59,17 +59,7 @@
         });
 
         $(".client_slides").owlCarousel({
-            responsive: {
-            0: {
-                items: 1
-            },
-            991: {
-                    items: 2
-                },
-            767:{
-                    items: 1
-                }
-            },
+            items: 1,
             loop: true,
             autoplay: true,
             smartSpeed: 700,
@@ -155,8 +145,6 @@
         });
     }
 
-
-
     // :: Wow Active Code
     if ($window.width() > 767) {
         new WOW().init();
@@ -196,8 +184,8 @@
     }
 
     $('.simple_timer').syotimer({
-        year: 2019,
-        month: 11,
+        year: 2020,
+        month: 9,
         day: 9,
         hour: 20,
         minute: 30
